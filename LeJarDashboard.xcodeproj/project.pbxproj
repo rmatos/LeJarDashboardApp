@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5060D861BC3878700212F1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5060D851BC3878700212F1F /* AppDelegate.swift */; };
+		F5060D881BC3878700212F1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5060D871BC3878700212F1F /* ViewController.swift */; };
+		F5060D8B1BC3878700212F1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5060D891BC3878700212F1F /* Main.storyboard */; };
+		F5060D8D1BC3878700212F1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5060D8C1BC3878700212F1F /* Assets.xcassets */; };
+		F5060D901BC3878700212F1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5060D8E1BC3878700212F1F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F5060D821BC3878700212F1F /* LeJarDashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeJarDashboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5060D851BC3878700212F1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5060D871BC3878700212F1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5060D8A1BC3878700212F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5060D8C1BC3878700212F1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5060D8F1BC3878700212F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5060D911BC3878700212F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5060D7F1BC3878700212F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5060D791BC3878700212F1F = {
+			isa = PBXGroup;
+			children = (
+				F5060D841BC3878700212F1F /* LeJarDashboard */,
+				F5060D831BC3878700212F1F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5060D831BC3878700212F1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5060D821BC3878700212F1F /* LeJarDashboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5060D841BC3878700212F1F /* LeJarDashboard */ = {
+			isa = PBXGroup;
+			children = (
+				F5060D851BC3878700212F1F /* AppDelegate.swift */,
+				F5060D871BC3878700212F1F /* ViewController.swift */,
+				F5060D891BC3878700212F1F /* Main.storyboard */,
+				F5060D8C1BC3878700212F1F /* Assets.xcassets */,
+				F5060D8E1BC3878700212F1F /* LaunchScreen.storyboard */,
+				F5060D911BC3878700212F1F /* Info.plist */,
+			);
+			path = LeJarDashboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5060D811BC3878700212F1F /* LeJarDashboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5060D941BC3878700212F1F /* Build configuration list for PBXNativeTarget "LeJarDashboard" */;
+			buildPhases = (
+				F5060D7E1BC3878700212F1F /* Sources */,
+				F5060D7F1BC3878700212F1F /* Frameworks */,
+				F5060D801BC3878700212F1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeJarDashboard;
+			productName = LeJarDashboard;
+			productReference = F5060D821BC3878700212F1F /* LeJarDashboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5060D7A1BC3878700212F1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Rudy Matos";
+				TargetAttributes = {
+					F5060D811BC3878700212F1F = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 7XYHS53D2W;
+					};
+				};
+			};
+			buildConfigurationList = F5060D7D1BC3878700212F1F /* Build configuration list for PBXProject "LeJarDashboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5060D791BC3878700212F1F;
+			productRefGroup = F5060D831BC3878700212F1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5060D811BC3878700212F1F /* LeJarDashboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5060D801BC3878700212F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5060D901BC3878700212F1F /* LaunchScreen.storyboard in Resources */,
+				F5060D8D1BC3878700212F1F /* Assets.xcassets in Resources */,
+				F5060D8B1BC3878700212F1F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5060D7E1BC3878700212F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5060D881BC3878700212F1F /* ViewController.swift in Sources */,
+				F5060D861BC3878700212F1F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5060D891BC3878700212F1F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5060D8A1BC3878700212F1F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5060D8E1BC3878700212F1F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5060D8F1BC3878700212F1F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5060D921BC3878700212F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5060D931BC3878700212F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5060D951BC3878700212F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LeJarDashboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rudymatos.polygon.LeJarDashboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5060D961BC3878700212F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LeJarDashboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.rudymatos.polygon.LeJarDashboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5060D7D1BC3878700212F1F /* Build configuration list for PBXProject "LeJarDashboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5060D921BC3878700212F1F /* Debug */,
+				F5060D931BC3878700212F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5060D941BC3878700212F1F /* Build configuration list for PBXNativeTarget "LeJarDashboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5060D951BC3878700212F1F /* Debug */,
+				F5060D961BC3878700212F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5060D7A1BC3878700212F1F /* Project object */;
+}
