@@ -8,20 +8,38 @@
 
 /* Begin PBXBuildFile section */
 		F5060D861BC3878700212F1F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5060D851BC3878700212F1F /* AppDelegate.swift */; };
-		F5060D881BC3878700212F1F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5060D871BC3878700212F1F /* ViewController.swift */; };
+		F5060D881BC3878700212F1F /* LeJarDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5060D871BC3878700212F1F /* LeJarDashboardViewController.swift */; };
 		F5060D8B1BC3878700212F1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5060D891BC3878700212F1F /* Main.storyboard */; };
 		F5060D8D1BC3878700212F1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5060D8C1BC3878700212F1F /* Assets.xcassets */; };
 		F5060D901BC3878700212F1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5060D8E1BC3878700212F1F /* LaunchScreen.storyboard */; };
+		F54D25851BC4BF6A007A29A9 /* AddEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54D25841BC4BF6A007A29A9 /* AddEntryViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F5CA21AE1BC4C40C00729063 /* FreePassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CA21AD1BC4C40C00729063 /* FreePassViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F5CA21B01BC4C55600729063 /* OnARowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CA21AF1BC4C55600729063 /* OnARowViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F5CA21B21BC4CBA300729063 /* MaxInADayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CA21B11BC4CBA300729063 /* MaxInADayViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F5CA21B41BC4CBC000729063 /* LeJarGoalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CA21B31BC4CBC000729063 /* LeJarGoalViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F5CA21B61BC4CBD600729063 /* TotalsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CA21B51BC4CBD600729063 /* TotalsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F5CA21B81BC4CBF200729063 /* TotalinLeJarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CA21B71BC4CBF200729063 /* TotalinLeJarViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F5CA21BA1BC4CBFE00729063 /* TodaysTotalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CA21B91BC4CBFE00729063 /* TodaysTotalViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F5CA21BD1BC4D1CB00729063 /* OnARowItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CA21BC1BC4D1CB00729063 /* OnARowItemViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F5060D821BC3878700212F1F /* LeJarDashboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeJarDashboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5060D851BC3878700212F1F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F5060D871BC3878700212F1F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5060D871BC3878700212F1F /* LeJarDashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeJarDashboardViewController.swift; sourceTree = "<group>"; };
 		F5060D8A1BC3878700212F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5060D8C1BC3878700212F1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5060D8F1BC3878700212F1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5060D911BC3878700212F1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F54D25841BC4BF6A007A29A9 /* AddEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEntryViewController.swift; sourceTree = "<group>"; };
+		F5CA21AD1BC4C40C00729063 /* FreePassViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FreePassViewController.swift; sourceTree = "<group>"; };
+		F5CA21AF1BC4C55600729063 /* OnARowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnARowViewController.swift; sourceTree = "<group>"; };
+		F5CA21B11BC4CBA300729063 /* MaxInADayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaxInADayViewController.swift; sourceTree = "<group>"; };
+		F5CA21B31BC4CBC000729063 /* LeJarGoalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeJarGoalViewController.swift; sourceTree = "<group>"; };
+		F5CA21B51BC4CBD600729063 /* TotalsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TotalsViewController.swift; sourceTree = "<group>"; };
+		F5CA21B71BC4CBF200729063 /* TotalinLeJarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TotalinLeJarViewController.swift; sourceTree = "<group>"; };
+		F5CA21B91BC4CBFE00729063 /* TodaysTotalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodaysTotalViewController.swift; sourceTree = "<group>"; };
+		F5CA21BC1BC4D1CB00729063 /* OnARowItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnARowItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +73,30 @@
 			isa = PBXGroup;
 			children = (
 				F5060D851BC3878700212F1F /* AppDelegate.swift */,
-				F5060D871BC3878700212F1F /* ViewController.swift */,
 				F5060D891BC3878700212F1F /* Main.storyboard */,
+				F5CA21BB1BC4D1A900729063 /* View Controllers */,
 				F5060D8C1BC3878700212F1F /* Assets.xcassets */,
 				F5060D8E1BC3878700212F1F /* LaunchScreen.storyboard */,
 				F5060D911BC3878700212F1F /* Info.plist */,
 			);
 			path = LeJarDashboard;
+			sourceTree = "<group>";
+		};
+		F5CA21BB1BC4D1A900729063 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F5060D871BC3878700212F1F /* LeJarDashboardViewController.swift */,
+				F5CA21B31BC4CBC000729063 /* LeJarGoalViewController.swift */,
+				F5CA21B51BC4CBD600729063 /* TotalsViewController.swift */,
+				F5CA21B71BC4CBF200729063 /* TotalinLeJarViewController.swift */,
+				F5CA21B91BC4CBFE00729063 /* TodaysTotalViewController.swift */,
+				F54D25841BC4BF6A007A29A9 /* AddEntryViewController.swift */,
+				F5CA21AD1BC4C40C00729063 /* FreePassViewController.swift */,
+				F5CA21AF1BC4C55600729063 /* OnARowViewController.swift */,
+				F5CA21B11BC4CBA300729063 /* MaxInADayViewController.swift */,
+				F5CA21BC1BC4D1CB00729063 /* OnARowItemViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +170,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5060D881BC3878700212F1F /* ViewController.swift in Sources */,
+				F54D25851BC4BF6A007A29A9 /* AddEntryViewController.swift in Sources */,
+				F5CA21BA1BC4CBFE00729063 /* TodaysTotalViewController.swift in Sources */,
+				F5CA21B01BC4C55600729063 /* OnARowViewController.swift in Sources */,
+				F5CA21BD1BC4D1CB00729063 /* OnARowItemViewController.swift in Sources */,
+				F5060D881BC3878700212F1F /* LeJarDashboardViewController.swift in Sources */,
+				F5CA21B61BC4CBD600729063 /* TotalsViewController.swift in Sources */,
 				F5060D861BC3878700212F1F /* AppDelegate.swift in Sources */,
+				F5CA21AE1BC4C40C00729063 /* FreePassViewController.swift in Sources */,
+				F5CA21B41BC4CBC000729063 /* LeJarGoalViewController.swift in Sources */,
+				F5CA21B21BC4CBA300729063 /* MaxInADayViewController.swift in Sources */,
+				F5CA21B81BC4CBF200729063 /* TotalinLeJarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +328,7 @@
 				F5060D961BC3878700212F1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

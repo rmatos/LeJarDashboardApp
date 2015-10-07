@@ -1,25 +1,343 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="2RZ-KC-jkh">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--MAX In a Day-->
+        <scene sceneID="uRg-N5-GS2">
+            <objects>
+                <viewController title="MAX In a Day" id="Y4c-3N-lK5" customClass="MaxInADayViewController" customModule="LeJarDashboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SHX-zd-id6"/>
+                        <viewControllerLayoutGuide type="bottom" id="bor-TB-G7N"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="XrO-rW-ITk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fln-XL-SZo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="56.5" y="965.5"/>
+        </scene>
+        <!--LeJar Goal-->
+        <scene sceneID="4SV-o0-dIg">
+            <objects>
+                <viewController title="LeJar Goal" id="58g-JL-trS" customClass="LeJarGoalViewController" customModule="LeJarDashboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="MXP-po-UKf"/>
+                        <viewControllerLayoutGuide type="bottom" id="X92-U2-Mvv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MCw-uk-jex">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7ye-Gj-SAz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="466.5" y="965.5"/>
+        </scene>
+        <!--LeJar-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LeJarDashboardViewController" customModule="LeJarDashboard" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MCB-HJ-W6Z">
+                                <rect key="frame" x="20" y="72" width="335" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="On a Row Segue"/>
+                                <connections>
+                                    <segue destination="Nmv-5N-BIq" kind="show" id="wxw-Yt-qfW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pCW-wz-v3F">
+                                <rect key="frame" x="20" y="196" width="335" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Totals Segue"/>
+                                <connections>
+                                    <segue destination="JLe-uD-teW" kind="show" id="Q1d-ES-llA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vOQ-Py-OeI">
+                                <rect key="frame" x="20" y="234" width="75" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Total in Jar"/>
+                                <connections>
+                                    <segue destination="Mri-Ox-sW5" kind="show" id="6Nh-Bt-pqd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sIk-mN-aJU">
+                                <rect key="frame" x="142" y="234" width="91" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Today's Total"/>
+                                <connections>
+                                    <segue destination="4x0-lW-usE" kind="show" id="HiF-9J-3mc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="15" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kEV-e8-bFq">
+                                <rect key="frame" x="20" y="110" width="147" height="30"/>
+                                <animations/>
+                                <accessibility key="accessibilityConfiguration" identifier="15"/>
+                                <state key="normal" title="On a Row Item Segue"/>
+                                <connections>
+                                    <action selector="clickOnRowItem:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xHT-t8-HOU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="20" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Onv-KM-h2C">
+                                <rect key="frame" x="20" y="133" width="147" height="30"/>
+                                <animations/>
+                                <accessibility key="accessibilityConfiguration" identifier="19"/>
+                                <state key="normal" title="On a Row Item Segue"/>
+                                <connections>
+                                    <action selector="clickOnRowItem:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lNx-oj-OFr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LwO-Ge-KWH">
+                                <rect key="frame" x="263" y="234" width="92" height="30"/>
+                                <animations/>
+                                <state key="normal" title="MAX In a Day"/>
+                                <connections>
+                                    <segue destination="Y4c-3N-lK5" kind="show" id="4HL-th-6AI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OhN-66-i6g">
+                                <rect key="frame" x="20" y="319" width="335" height="120"/>
+                                <animations/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="LeJar Goal Segue"/>
+                                <connections>
+                                    <segue destination="58g-JL-trS" kind="show" id="CSu-ad-FlN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="30" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q6E-aD-fue">
+                                <rect key="frame" x="20" y="158" width="147" height="30"/>
+                                <animations/>
+                                <accessibility key="accessibilityConfiguration" identifier="20"/>
+                                <state key="normal" title="On a Row Item Segue"/>
+                                <connections>
+                                    <action selector="clickOnRowItem:" destination="BYZ-38-t0r" eventType="touchUpInside" id="z1o-Ku-JVm"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="LeJar" id="gLK-nU-bXl">
+                        <barButtonItem key="backBarButtonItem" title="Dashboard" id="mcH-R8-M5b"/>
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="mLu-o6-fRW">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="f3p-zJ-vDp">
+                                <rect key="frame" x="16" y="7" width="68" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" title="Add Entry"/>
+                                <connections>
+                                    <segue destination="Wgp-6r-1DH" kind="show" id="KiK-4w-F0o"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" style="plain" id="iVr-Rd-DvV">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="aFC-Y0-PWg">
+                                <rect key="frame" x="296" y="7" width="63" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <animations/>
+                                <state key="normal" title="FreePass"/>
+                                <connections>
+                                    <segue destination="yR5-MJ-wX8" kind="show" id="ugN-Vs-24w"/>
+                                </connections>
+                            </button>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <segue destination="ioz-13-TzU" kind="show" identifier="onARowItemSegue" id="JwN-i1-vDm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1432.5" y="-78.5"/>
+        </scene>
+        <!--Add Entry-->
+        <scene sceneID="VMn-Z0-E0K">
+            <objects>
+                <viewController title="Add Entry" id="Wgp-6r-1DH" customClass="AddEntryViewController" customModule="LeJarDashboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y0D-vn-MlJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="67x-ZJ-Wsz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yDF-wA-TRT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wbe-jM-bzM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1294.5" y="965.5"/>
+        </scene>
+        <!--On a Row -->
+        <scene sceneID="Thj-bX-Ypg">
+            <objects>
+                <viewController title="On a Row " id="Nmv-5N-BIq" customClass="OnARowViewController" customModule="LeJarDashboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="07y-TZ-fjW"/>
+                        <viewControllerLayoutGuide type="bottom" id="Zof-r6-DcJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gpU-Rs-6Co">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CGi-XR-Ihy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="872.5" y="965.5"/>
+        </scene>
+        <!--FreePass-->
+        <scene sceneID="xm8-Pf-muL">
+            <objects>
+                <viewController title="FreePass" id="yR5-MJ-wX8" customClass="FreePassViewController" customModule="LeJarDashboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sJ5-Ji-kVX"/>
+                        <viewControllerLayoutGuide type="bottom" id="VlQ-24-EKP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="028-aO-O22">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l9S-nK-U2p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2110.5" y="965.5"/>
+        </scene>
+        <!--Total in LeJar-->
+        <scene sceneID="KmO-Nt-hor">
+            <objects>
+                <viewController title="Total in LeJar" id="Mri-Ox-sW5" customClass="TotalinLeJarViewController" customModule="LeJarDashboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dIP-R6-JjD"/>
+                        <viewControllerLayoutGuide type="bottom" id="w03-WM-HJf"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EBT-40-Q7j">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2dg-Z7-kUe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2525.5" y="965.5"/>
+        </scene>
+        <!--Today's Total-->
+        <scene sceneID="cV5-MQ-brU">
+            <objects>
+                <viewController title="Today's Total" id="4x0-lW-usE" customClass="TodaysTotalViewController" customModule="LeJarDashboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vnO-Sx-4Dd"/>
+                        <viewControllerLayoutGuide type="bottom" id="DxX-Hj-a9c"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oWe-iD-aV6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WQ3-LK-hNJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2942.5" y="965.5"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="IP5-y8-W5W">
+            <objects>
+                <viewController title="Item" id="ioz-13-TzU" customClass="OnARowItemViewController" customModule="LeJarDashboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8DQ-Gv-60j"/>
+                        <viewControllerLayoutGuide type="bottom" id="aSL-Zo-BHm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2G9-c3-IMm">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Index Value : 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sUo-Nn-AZJ">
+                                <rect key="frame" x="132" y="323" width="112" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="sUo-Nn-AZJ" firstAttribute="centerX" secondItem="2G9-c3-IMm" secondAttribute="centerX" id="EmE-To-bap"/>
+                            <constraint firstItem="sUo-Nn-AZJ" firstAttribute="top" secondItem="8DQ-Gv-60j" secondAttribute="bottom" constant="259" id="PVX-nx-er0"/>
+                            <constraint firstItem="sUo-Nn-AZJ" firstAttribute="centerY" secondItem="2G9-c3-IMm" secondAttribute="centerY" id="wTb-8Z-5g5"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="indexValueLBL" destination="sUo-Nn-AZJ" id="1tt-e5-ffl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jEn-c3-VKq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3358.5" y="965.5"/>
+        </scene>
+        <!--Totals-->
+        <scene sceneID="CC8-TD-lFD">
+            <objects>
+                <viewController title="Totals" id="JLe-uD-teW" customClass="TotalsViewController" customModule="LeJarDashboard" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0Gb-W1-J41"/>
+                        <viewControllerLayoutGuide type="bottom" id="EO3-rI-HE1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bEC-bs-9q2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BBo-6R-uMT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1702.5" y="965.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="0Ce-Ps-1yp">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2RZ-KC-jkh" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cyw-ja-wcP">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Q5t-oK-TbG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LKg-zt-Bgr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="830" y="-145"/>
         </scene>
     </scenes>
 </document>
